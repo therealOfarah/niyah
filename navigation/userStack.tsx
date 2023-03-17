@@ -14,8 +14,8 @@ export default function UserStack() {
     <>
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home"  options={{headerShown:false}} component={HomeScreen} />
-        <Tab.Screen name="Media"  options={{headerShown:false}} component={Media} />
+        <Tab.Screen name="Home"  options={{headerShown:false}}  component={HomeScreen} />
+        <Tab.Screen name="Media"  options={{headerShown:true}} component={Media} />
         <Tab.Screen name="Planner"  options={{headerShown:false}} component={Planner} />
         <Tab.Screen name="Profile" options={{headerShown:false}} component={Profile} />
       </Tab.Navigator>

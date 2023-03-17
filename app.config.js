@@ -2,8 +2,8 @@ import 'dotenv/config';
 
 export default {
   "expo": {
-    "name": "expo-with-firebase-auth-demo",
-    "slug": "expo-with-firebase-auth-demo",
+    "name": "sistersofniyah",
+    "slug": "sistersofniyah",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

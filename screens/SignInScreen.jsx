@@ -34,32 +34,26 @@ const SignInScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Signin screen!</Text>
 
       {!!value.error && <View style={styles.error}><Text>{value.error}</Text></View>}
 
       <View style={styles.controls}>
+      <Text>Email</Text>
         <Input
           placeholder='Email'
           containerStyle={styles.control}
           value={value.email}
           onChangeText={(text) => setValue({ ...value, email: text })}
-          leftIcon={<Icon
-            name='envelope'
-            size={16}
-          />}
+          secureTextEntry={false}
         />
-
+        <Text>Password</Text>
         <Input
           placeholder='Password'
           containerStyle={styles.control}
           value={value.password}
           onChangeText={(text) => setValue({ ...value, password: text })}
           secureTextEntry={true}
-          leftIcon={<Icon
-            name='key'
-            size={16}
-          />}
+          
         />
         <Button title="Sign in" buttonStyle={styles.control} onPress={signIn} />
         <Button title="Sign Up" buttonStyle={styles.control} onPress={()=>navigation.navigate('Sign Up')} />
@@ -79,7 +73,7 @@ const styles = StyleSheet.create({
 
   controls: {
     flex: 1,
-    width:'100%'
+    width:'70%'
 
   },
 

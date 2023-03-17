@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   
   controls: {
     flex: 1,
-    width:'100%'
+    width:'70%'
   },
 
   control: {

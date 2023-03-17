@@ -1,0 +1,23 @@
+export const videoArray = [
+  ['https://www.youtube.com/watch?v=FwHoXA7JShI'],
+  ['https://www.youtube.com/watch?v=-uTSuHOFpoM'],
+  ['https://www.youtube.com/watch?v=fMoUINuqdAQ'],
+  ['https://www.youtube.com/watch?v=L9OJ6vNMreg'],
+  ['https://www.youtube.com/watch?v=VOUp3ZZ9t3A'],
+  ['https://www.youtube.com/watch?v=Jk0Xv1adP3s'],
+  ['https://www.youtube.com/watch?v=iW3ba_GapOQ'],
+  ['https://www.youtube.com/watch?v=WTcwDGEXHzU'],
+  ['https://www.youtube.com/watch?v=3XB41klnwDA'],
+  ['https://www.youtube.com/watch?v=PM_xRE-ER_M'],
+  ['https://www.youtube.com/watch?v=Ufl26UrsgO4&t=1s'],
+  ['https://www.youtube.com/watch?v=nN0Sxfrf37Q&t=682s'],
+  ['https://www.youtube.com/watch?v=ca8Pg21yXv0'],
+  ['https://www.youtube.com/watch?v=9G-aro3artk'],
+  ['https://www.youtube.com/watch?v=B38wVuYbtRw'],
+  ['https://www.youtube.com/watch?v=aiqakdVTWOA'],
+  ['https://www.youtube.com/watch?v=VxuZSt_3fB0&t=1s'],
+  ['https://www.youtube.com/watch?v=JQCWaPze9gI&list=PLQ02IYL5pmhHFl7j6wPcFTZmlQvRhsejp&t=5s'],
+  ['https://www.youtube.com/watch?v=2t2P-QbCa8s'],
+  ['https://www.youtube.com/watch?v=CG7splCXvUE'],
+  ['https://www.youtube.com/watch?v=rGSXCH9ZvUY&t=1s']
+];
