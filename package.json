@@ -24,7 +24,7 @@
     "react-native": "0.71.3",
     "react-native-elements": "^3.4.2",
     "react-native-web": "~0.18.11",
-    "react-native-youtube-iframe": "^2.2.2",
+    "react-native-webview": "^11.26.1",
     "update": "^0.7.4"
   },
   "devDependencies": {
