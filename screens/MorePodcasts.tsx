@@ -1,39 +1,42 @@
-import { View, Text, Linking, TouchableOpacity,StyleSheet,Image } from "react-native";
+import { View, Text, Linking, TouchableOpacity,StyleSheet,Image, ScrollView } from "react-native";
 import React from "react";
 import { podcastApple } from "../data/Podcasts";
 
 export default function MorePodcasts() {
   return (
     <>
+    <ScrollView>
+
+      <View style={styles.container}>
     {podcastApple.map((podcast:any)=>
       <>
-      <View style={styles.container}>
-    <TouchableOpacity key={podcast.link} onPress={() => Linking.openURL(`${podcast.link}`)}>
-      <Image style={styles.image} source={podcast.image} key={podcast.link} />
-      <Text>{podcast.name}</Text>
-    </TouchableOpacity>
-      </View>
+        <TouchableOpacity key={podcast.link} onPress={() => Linking.openURL(`${podcast.link}`)}>
+          <Image style={styles.image} source={podcast.image} key={podcast.link} />
+          <Text>{podcast.name}</Text>
+        </TouchableOpacity>
         </>
       )}
+      </View>
+      </ScrollView>
     </>
   );
 }
 
 
-const styles= StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#7CA1B4",
+    backgroundColor: 'rgb(143, 172, 139)',
     flex: 1,
-    alignItems: "center", // ignore this - we'll come back to it
-    justifyContent: "center", // ignore this - we'll come back to it
+    alignItems: "center",
+    justifyContent: "flex-start",
     flexDirection: "row",
+    flexWrap: "wrap",
+    padding: 22,
+    paddingLeft:'8%',
   },
-  image:{
-    maxHeight:'35%',
-    maxWidth:'65%',
-    margin: 4,
-    // flexBasis: '30%',
-    // aspectRatio: 1,
-    // margin: 5,
+  image: {
+    width: 100,
+    height: 100,
+    margin: 10,
   },
-})
+});

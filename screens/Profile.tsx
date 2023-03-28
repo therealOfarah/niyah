@@ -12,7 +12,6 @@ export default function Profile() {
   return (
     <View style={styles.container}>
       <Text>Welcome {user?.displayName}!</Text>
-
         <Button title="Sign Out" style={{marginTop: 10}} onPress={() => signOut(auth)} />
     </View>
   )

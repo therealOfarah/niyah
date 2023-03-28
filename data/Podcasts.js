@@ -24,22 +24,22 @@ export const recoApple=[
 ]
 export const podcastApple=[  
   
-  //   {
-  //     link:"https://podcasts.apple.com/us/podcast/mufti-menk/id592746186",
-  //     name:"Mufti Menk"
-  //   },
-  //   {link:"https://podcasts.apple.com/us/podcast/zakir-naik/id1020147522",
-  //   name:"Zakir Naik"
-  //   }
-  // ,
+    {
+      link:"https://podcasts.apple.com/us/podcast/mufti-menk/id592746186",
+      name:"Mufti Menk"
+    ,image:require('../assets/Photos/Mufti.png')},
+    {link:"https://podcasts.apple.com/us/podcast/zakir-naik/id1020147522",
+    name:"Zakir Naik"
+    ,image:require('../assets/Photos/Zakir.png')}
+  ,
   {link:"https://podcasts.apple.com/us/podcast/omar-suleiman/id1017074168",name:"Omar Suleiman",image:require('../assets/Photos/Omar.png')},
-  {link:"https://podcasts.apple.com/us/podcast/muhammad-hoblos/id1197304577",name:"Muhammad Hoblos",image:require('../assets/Photos/Hoblos.png')},
+  {link:"https://podcasts.apple.com/us/podcast/muhammad-hoblos/id1197304577",name:"Muhammad Hoblos ",image:require('../assets/Photos/Hoblos.png')},
   {link:"https://podcasts.apple.com/us/podcast/yasmin-mogahed/id676135884",name:"Yasmin Mogahed",image:require('../assets/Photos/Yasmin.png')},
   {link:"https://podcasts.apple.com/us/podcast/the-deen-show/id1071230854",name:"The Deen Show",image:require('../assets/Photos/Deen.png')},
   {link:"https://podcasts.apple.com/us/podcast/mohammed-hijab/id1479856792",name:"Mohammed Hijab",image:require('../assets/Photos/Hijba.png')},
   {link:"https://podcasts.apple.com/us/podcast/islamic-feelings/id1633070078",name:"Islamic Feelings",image:require('../assets/Photos/IslamicFeelings.png')},
-  {link:"https://podcasts.apple.com/us/podcast/journey-to-jannah/id1618610395",name:"Journey To Jannah",image:require('../assets/Photos/Journey.png')},
-  {link:"https://podcasts.apple.com/us/podcast/deen-lovers-podcast/id1506109457",name:"Deen Lovers Podcast",image:require('../assets/Photos/DeenLovers.png')},
+  {link:"https://podcasts.apple.com/us/podcast/journey-to-jannah/id1618610395",name:"Journey To Jannah ",image:require('../assets/Photos/Journey.png')},
+  {link:"https://podcasts.apple.com/us/podcast/deen-lovers-podcast/id1506109457",name:"Deen Lovers",image:require('../assets/Photos/DeenLovers.png')},
   {link:"https://podcasts.apple.com/us/podcast/talking-deen/id1461183320",name:"Talking Deen",image:require('../assets/Photos/TalkingDeen.png')},
   {link:"https://podcasts.apple.com/us/podcast/talk-ya-haqq/id1523196010",name:"Talk Ya Haqq",image:require('../assets/Photos/TalkYaHaq.png')},
   {link:"https://podcasts.apple.com/us/podcast/yusha-evans/id676144099",name:"Yusha Evans",image:require('../assets/Photos/YushaEvans.png')},
